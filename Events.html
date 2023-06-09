@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="jquery-3.6.4.min.js" ></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<script>
+$(document).ready(function(){
+        
+$('#color').on({
+     click:function(){
+         $(this).css('background-color','blue')
+      },
+      mouseenter:function(){
+          $(this).css('background-color','green ')
+     },
+      mouseleave:function(){
+          $(this).css('background-color','yellow')
+     },
+  }) ;
+});
+
+ 
+
+</script>
+
+<body>
+
+    <p id="para">this is p tag</p>
+    <button id="btn">Click</button>
+    <br>
+    <br>
+    <div id="color" style="background-color: red;height: 100px;width: 100px;"></div>
+    <script>
+      // $('#btn').click(function(){
+          //$('#para').hide();
+         // $(this).hide();
+      //  })
+      //  $('#color').mouseenter(function(){
+            
+          //  $('#para').hide();
+        //  });
+        
+
+        // $('#color').hover(function(){
+            
+         //   $('#para').hide();
+       //  },
+        //  function(){
+        //    $('#para').show()
+          
+       //   });
+
+      // $('#color').on({
+      // click:function(){
+       //     $(this).css('background-color','blue')
+       // },
+       // mouseenter:function(){
+       //     $(this).css('background-color','green ')
+       // },
+       // mouseleave:function(){
+       //     $(this).css('background-color','yellow')
+       // },
+   // })
+
+</script>
+   
+       
+</body>
+
+</html>
